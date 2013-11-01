@@ -1,0 +1,1475 @@
+*{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+ font-family: 'nestleBold';
+ src: url('fuentes/VAGRouBol.woff');
+}
+@font-face {
+ font-family: 'nestleLight';
+ src: url('fuentes/VAGRouThi.woff');
+}
+@font-face {
+ font-family: 'throwNormal';
+ src: url('fuentes/ThrowMyHandsUpintheAir.woff');
+}
+@font-face {
+ font-family: 'throwBold';
+ src: url('fuentes/ThrowMyHandsUpintheAirBold.woff');
+}
+
+.fondo-impress{
+	background-image: url(../fondo/FONDO.jpg);
+	width: 1024px;
+	height: 768px;
+	top: 0% !important;
+	left: 0% !important;
+}
+.nestleLi{ font-family: nestleLight; }
+
+.nestleBld{ font-family: nestleBold; }
+
+.throw{ font-family: throwNormal; }
+
+.throwBld{ font-family: throwBold; }
+
+.nestleLiMed{ font-family: nestleLight; font-size: 60px; }
+
+.nestleBldMed{ font-family: nestleBold; font-size: 60px; }
+
+.throwMed{ font-family: throwNormal; font-size: 60px; }
+
+.throwBig{ font-family: throwNormal; font-size: 108px; }
+
+.throwBldMed{ font-family: throwBold; font-size: 60px; }
+
+.throwBldBig{ font-family: throwBold; font-size: 108px; }
+
+.slide1{
+	background-image: url(../chose-slide-1/1024x768/back.jpg);
+	height: 768px;
+	width: 1024px;
+	overflow: hidden;
+}
+.slide1-sol{
+	background: url(../chose-slide-1/1024x768/sol.png) center;
+	height: 1800px;
+	width: 1800px;
+	float: left;
+	margin-left: -400px;
+    margin-top: -340px;
+}
+.slide1-bebe{
+	background-image: url(../chose-slide-1/1024x768/bebe.png);
+	height: 768px;
+	width: 1024px;
+	position: relative;
+}
+.slide1-legal{
+	background-image: url(../chose-slide-1/1024x768/legal_lactancia.png);
+	height: 768px;
+	width: 1024px;
+}
+.slide1-logo{
+	background-image: url(../chose-slide-1/1024x768/logo_gerber.png);
+	height: 768px;
+	width: 1024px;
+}
+.slide1-mano{
+	background-image: url(../chose-slide-1/1024x768/mano_cuchara.png);
+	height: 768px;
+	width: 1024px;
+}
+.slide1-energia{
+	height: 260px;
+	width: 520px;
+	position: absolute;
+}
+div.slide1-energia p.nestleBld {
+    margin: 54px 0 0 42px;
+    font-size: 100px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 58px;
+    text-shadow: 5px 6px #999999;
+}
+div.slide1-energia p.nestleBld span {
+    color: #FCD602;
+    font-size: 56px;
+    line-height: 81px;
+    text-shadow: 2px 3px #999999;
+}
+div.slide1-energia p.throwBld {
+    color: #FF9703;
+    font-size: 75px;
+    letter-spacing: 3px;
+    line-height: 52px;
+    margin: 0 0 0 84px;
+    text-shadow: 2px 3px #999999;
+}
+
+div.slide2{
+	height: 768px;
+	width: 1024px;
+	overflow: hidden;
+}
+div.slide2-ventana{
+	background: url(../chose-slide-2/1024x768/MESA-Y-VENTANA.jpg) no-repeat;
+	height: 768px;
+	width: 1024px;
+}
+div.slide2-texto{
+	background: url(../chose-slide-2/1024x768/fondo_pregunta.png) no-repeat;
+	width: 1024px;
+	height: 240px;
+	float: left;
+	margin: 127px 0 0 0;
+}
+
+div.slide2-titulo{
+	width: 880px;
+	height: 165px;
+	float: right;
+	color: #16ADF9;
+	margin: 35px 28px 0 0;
+	line-height: 43px;
+	letter-spacing: 1px;
+}
+
+div.slide2-titulo .s2-txt{ font-size: 45px; color: #FD9707; }
+div.slide2-titulo .throwMed{ color: #5AE51A; font-weight: bolder; }
+
+div.slide2-pAzul{
+	background: url(../chose-slide-2/1024x768/plato_azul.png) no-repeat;
+	width: 475px;
+	height: 377px;
+	float: left;
+	margin: 18px 0 0 49px;
+}
+div.slide2-pAzul img{ margin: 121px 0 0 133px }
+
+div.slide2-pMorado{
+	background: url(../chose-slide-2/1024x768/plato_morado.png) no-repeat;
+	width: 475px;
+	height: 377px;
+	float: left;
+}
+div.slide2-pMorado img{ margin: 145px 0 0 146px}
+
+
+div.slide3{
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide3-mantel{
+	background: url(../chose-slide-3/1024x768/F-3.jpg);
+	width: 1024px;
+	height: 768px;
+}
+div.slide3-barra{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 306px;
+}
+div.slide3-titulo{
+	width: 660px;
+	height: 220px;
+	float: right;
+	margin: 70px 96px 0 0;
+	font-size: 24px;
+	color: #07A896;
+	line-height: 28px;
+	letter-spacing: 1px;
+    text-align: justify;
+}
+div.slide3-titulo .throwBldBig{
+    color: #F8125B;
+    text-shadow: 1px 2px #999999;
+    line-height: 110px;
+}
+div.slide3-texto{
+	width: 1024px;
+	height: 462px;
+	overflow: visible;
+	float: left;
+}
+div.slide3-bebe{ 
+	background: url(../chose-slide-3/1024x768/bebe.png) no-repeat; 
+	width: 505px; 
+	height: 768px;
+	float: left;
+	margin: -276px 0 0;
+}
+div.slide3-bullets{
+	width: 519px;
+	height: 462px;
+	float: left;
+}
+
+img.slide3-3{ float: left; margin: 13px 0 10px 138px; }
+img.slide3-4{ float: left; margin: 0 0 10px 113px; }
+img.slide3-5{ float: left; margin: 0 0 10px 107px; }
+img.slide3-6{ float: left; margin: 0 0 0 111px; }
+img.slide3-7{ float: left; margin: 35px 0 0 0; }
+
+
+div.slide4{
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide4-mantel{
+	background: url(../chose-slide-4/1024x768/F-5.jpg) no-repeat bottom;
+	width: 1024px;
+	height: 768px;
+}
+div.slide4-barra{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 180px;
+	float: left;
+	overflow: visible;
+	margin-bottom: 50px;
+}
+div.slide4-barra-texto{
+	font-size: 110px;
+	color: #88cc41;
+	margin-left: 270px;
+	margin-top: 20px;
+}
+div.slide4-contenedor{
+	width: 1024px;
+	height: 500px;
+	float: left;
+}
+div.slide4-contenedor-video{
+	background: url(../chose-slide-4/1024x768/Marco_video.png) no-repeat;
+	width: 700px;
+	height: 425px;
+	margin-left: 165px;
+	float: left;
+	margin-top: -6px;
+}
+div.slide4-contenedor-video-margen{
+	width: 640px;
+	height: 377px;
+	margin-top: 23px;
+	margin-left: 27px;
+	overflow: hidden;
+}
+div.slide4-contenedor-video-margen video{float: left; margin: -52px 0 0 0;}
+.play{
+	background: url(../chose-slide-4/1024x768/Play.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	margin-left: 500px;
+	float: left;
+	margin-top: -35px;
+	position: relative;
+}
+.pause{
+	background: url(../chose-slide-4/1024x768/Pausa.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	margin-left: 500px;
+	float: left;
+	margin-top: -35px;
+	position: relative;
+}
+
+div.slide4-piramide{
+	width: 470px;
+	height: 598px;
+	float: right;
+	margin-top: -680px;
+}
+div.slide4-piramide-punta{
+	width: 470px;
+	height: 196px;
+	margin-top: 10px;
+}
+div.slide4-piramide-media1{
+	width: 470px;
+	height: 160px;
+}
+div.slide4-piramide-media2{
+	width: 470px;
+	height: 162px;
+}
+div.slide4-piramide-base{
+	width: 470px;
+	height: 142px;
+}
+img.slide4-1{ float: left; margin: -26px 0 0 22px; }
+img.slide4-2{ float: left; margin: -43px 0 0 37px; }
+img.slide4-3{ float: left; margin: -1px 0 0 52px; }
+img.slide4-4{ float: left; margin: -8px 0 0 0; }
+img.slide4-5{ float: left; margin: 27px 0 0 53px; }
+img.slide4-6{ float: left; margin: 9px 0 0 77px; }
+img.slide4-7{ float: right; margin: 0px 92px 0 0; }
+img.slide4-8{ float: right; margin: 0px 26px 0 0; }
+img.slide4-9{ float: right; margin: 0px 0 0 0; }
+img.slide4-10{ float: right; margin: 0px 0 0 0; }
+
+div.slide5{
+	background: url(../chose-slide-5/1024x768/Fondo_06.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide5-pleca{
+	background: url(../chose-slide-5/1024x768/pleca_blanca.png) no-repeat;
+	width: 1024px;
+	height: 247px;
+}
+div.slide5-titulo{
+	width: 905px;
+	height: 192px;
+	float: right;
+	margin: 33px 44px 0 45px;
+	color: #40C6C7;
+	font-size: 60px;
+	line-height: 60px;
+	text-shadow: 1px 2px #999999;
+	
+}
+div.slide5-titulo p span.throwBld{
+	color: #F527B0;
+	line-height: 75px;
+	letter-spacing: 1px;
+}
+div.slide5-contenedor{
+	width: 1024px;
+	height: 555px;
+}
+div.slide5-contenedor-chavo-texto{
+	width: 450px;
+	height: 555px;
+	float: left;
+}
+div.slide5-chavo{
+	background: url(images/normal.png) no-repeat;
+	width: 280px;
+	height: 450px;
+	margin-left: 130px;
+}
+div.slide5-texto{
+	background: url(../chose-slide-5/1024x768/Pleca_azul.png) no-repeat;
+	width: 244px;
+	height: 76px;
+	margin-left: 130px;
+}
+div.slide5-contenedor-plato-cereales{
+	width: 574px;
+	height: 555px;
+	float: left;
+}
+div.slide5-contenedor-plato-cereales-cereales{
+	background: url(../chose-slide-5/1024x768/Plato_cucharas.png) no-repeat;
+    width: 567px;
+    height: 549px;
+	float: left;
+    margin: -28px 0 0 -5px;
+}
+div.slide5-contenedor-plato-cereales-cereales-facil{
+	width: 313px;
+	height: 253px;
+	float: left;
+}
+div.slide5-contenedor-plato-cereales-cereales-anemia{
+	width: 250px;
+	height: 253px;
+	float: left;
+}
+div.slide5-contenedor-plato-cereales-cereales-obecidad{
+	width: 295px;
+	height: 279px;
+	float: left;
+}
+div.slide5-contenedor-plato-cereales-cereales-alergias{
+	width: 268px;
+	height: 279px;
+	float: left;
+}
+
+div.slide6{
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide6-mantel{
+	background: url(../chose-slide-6/1024x768/F-7.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+div.slide6-mantel-pleca{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+div.slide6-mantel-pleca-texto-titulo{
+	width: 622px;
+	height: 132px;
+	float: right;
+	margin-top: 108px;
+	clear: left;
+}
+div.slide6-titulo{
+	width: 599px;
+	height: 130px;
+	float: right;
+	margin: 10px 10px 0 0;
+	color: #00A7D0;
+	font-size: 63px;
+	line-height: 54px;
+}
+div.slide6-titulo span.throwBld{ font-size: 78px; }
+
+div.slide6-mantel-pleca-babero{
+	background: url(../chose-slide-6/1024x768/BABERO.png) no-repeat;
+	width: 478px;
+	height: 696px;
+	float: left;
+	margin-top: -168px;
+}
+div.slide6-mantel-pleca-texto-estima{
+	width: 396px;
+	height: 190px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 95px;
+	
+}
+div.slide6-texto{
+	width: 396px;
+	height: 184px;
+	color: #8337BD;
+	font-size: 34px;
+	letter-spacing: 1px;
+	line-height: 38px;
+}
+div.slide6-mantel-pleca-trigo{
+	width: 559px;
+	height: 282px;
+	float: right;
+	margin-top: -242px;
+}
+div.slide6-mantel-pleca-babero-conciencia{
+	width: 325px;
+	height: 80px;
+	margin-left: 72px;
+	margin-top: 265px;
+}
+div.slide6-mantel-pleca-babero-conciencia{
+	width: 325px;
+	height: 80px;
+	margin-left: 72px;
+	margin-top: 265px;
+}
+
+div.slide6-mantel-pleca-babero-conciencia{
+	width: 383px;
+	margin-left: 72px;
+	margin-top: 275px;
+}
+div.slide6-mantel-pleca-babero-conciencia-texto-1{
+	width: 383px;
+	height: 86px;
+	margin-bottom: 10px;
+}
+div.slide6-mantel-pleca-babero-conciencia-texto-2{
+	width: 383px;
+	height: 71px;
+}
+div.slide6-mantel-pleca-babero-conciencia-texto-3{
+	width: 383px;
+	height:52px;
+}
+div.slide6-mantel-pleca-babero-conciencia-texto-4{
+	width: 383px;
+	height: 52px;
+}
+div.slide6-mantel-pleca-babero-conciencia-texto-5{
+	width: 383px;
+	height: 90px;
+}
+div.slide6-mantel-pleca-babero-conciencia-bullet{
+	background: url(../chose-slide-6/1024x768/BULLET-NARANJA.png) no-repeat;
+	width: 12px;
+	height: 20px;
+	float: left;
+	margin-top: 10px;
+}
+
+div.slide7{
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide7-mantel{
+	background: url(../chose-slide-7/1024x768/F-8.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+div.slide7-mantel-pleca{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+div.slide7-mantel-pleca-texto-titulo{
+	width: 979px;
+	height: 72px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 70px;
+}
+div.slide7-titulo{
+	width: 965px;
+	height: 168px;
+	float: right;
+	margin: 20px 0 0;
+}
+div.slide7-titulo p{
+	color: #A4D94B;
+	font-size: 37px;
+	line-height: 37px;
+	text-shadow: 1px 2px #999999;
+	letter-spacing: .5px;
+}
+div.slide7-titulo span.nestleBldMed{
+	color: #06B4FD;
+	line-height: 65px;
+}
+.slide7-mantel-pleca-texto-cereal{
+	width: 474px;
+	height: 166px;
+	margin-top: 190px;
+	float: left;
+}
+.slide7-2{
+	margin-top: -25px;
+}
+.slide7-mantel-pleca-texto-cereal{
+	width: 474px;
+	height: 166px;
+	margin-top: 190px;
+	float: left;
+}
+.slide7-mantel-pleca-bebe{
+	background: url(../chose-slide-7/1024x768/FOTO-BEBE.png) no-repeat;
+	width: 676px;
+	height: 468px;
+	float: right;
+	margin-top: -198px;
+}
+.slide7-mantel-pleca-texto-cereal-texto{
+	height: 166px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 474px;
+}
+.slide7-mantel-pleca-trigo{
+	background: url(../chose-slide-7/1024x768/TRIGO.png) no-repeat;
+	width: 281px;
+	height: 276px;
+	float: left;
+	margin-top: -25px;
+}
+.slide7-4{
+	width: 114px;
+	height: 51px;
+	float: left;
+	margin-top: 190px;
+	margin-left: -140px
+}
+
+div.slide8{
+	background: url(../chose-slide-8/1024x768/Fondo_09.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide8-pleca{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 307px;
+}
+div.slide8-pleca-titulo{
+	width: 820px;
+	height: 174px;
+	margin: 85px 0 0 48px;
+	float: left;
+	color: #55CC31;
+	line-height: 53px;
+	font-size: 50px;
+	text-shadow: 2px 2px #999999;
+	letter-spacing: 1.5px;
+}
+div.slide8-pleca-titulo span.throwBld{ font-size: 77px; }
+div.slide8-babero{
+	background: url(../chose-slide-8/1024x768/Babero_09.png) no-repeat;
+	width: 369px;
+	height: 534px;
+	float: left;
+	margin-top: -30px;
+	margin-left: 18px;
+}
+div.slide8-textos{
+	width: 619px;
+	height: 464px;
+	float: right;
+	margin-top: 83px;
+}
+div.slide8-textos-contenedor1{
+	width: 619px;
+	height: 200px;
+}
+div.slide8-textos-contenedor1-pleca{
+	background: url(../chose-slide-8/1024x768/Pleca_chica_1_09.png) no-repeat;
+	width: 352px;
+	height: 52px;
+	float: left;
+	overflow: hidden;
+}
+div.slide8-textos-contenedor1-pleca-titulo{
+	background: url(../chose-slide-8/1024x768/Titulo1_09.png) no-repeat;
+	height: 35px;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+div.slide8-textos-contenedor1-pleca-texto{
+	background: url(../chose-slide-8/1024x768/Texto1_09.png) no-repeat;
+	width: 327px;
+	height: 98px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+div.slide8-textos-contenedor2{
+	width: 619px;
+	height: 230px;
+}
+div.slide8-textos-contenedor2-pleca{
+	background: url(../chose-slide-8/1024x768/Pleca_chica_2_09.png) no-repeat;
+	width: 353px;
+	height: 50px;
+	float: right;
+	margin-right: 15px;
+	overflow: hidden;
+}
+div.slide8-textos-contenedor2-pleca-titulo{
+	background: url(../chose-slide-8/1024x768/Titulo2_09.png) no-repeat;
+	width: 315px;
+	height: 38px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+div.slide8-textos-contenedor2-pleca-texto{
+	background: url(../chose-slide-8/1024x768/Texto2_09.png) no-repeat;
+	width: 341px;
+	height: 115px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+div.slide9{
+	background: url(../chose-slide-9/1024x768/Fondo_10.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide9-pleca{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 307px;
+}
+div.slide9-pleca-titulo{
+	width: 754px;
+	height: 120px;
+	margin-top: 72px;
+	margin-left: 42px;
+	float: left;
+}
+div.slide9-titulo{
+	width: 895px;
+	height: 213px;
+	margin-top: 72px;
+	margin-left: 42px;
+	float: left;
+	line-height: 48px;
+	color: #FE882E;
+	text-shadow: 1px 2px #999999;
+	letter-spacing: 2px;
+}
+div.slide9-titulo p span.throwBld{ font-size: 70px; }
+div.slide9-titulo p.nestleLi{
+	font-size: 28px;
+	line-height: 32px;
+	color: #8338BD;
+	margin: 15px 0 0 0;
+}
+div.slide9-mama{
+	width: 622px;
+	height: 462px;
+	float: left;
+}
+div.slide9-bullets{
+	width: 402px;
+	height: 462px;
+	float: right;
+	margin-top: 30px;
+	margin-left: -13px;
+}
+div.slide9-bullets-1{
+	background: url(../chose-slide-9/1024x768/Bullet_01_10.png) no-repeat;
+	width: 401px;
+	height: 88px;
+	float: left;
+	margin-left: -13px;
+}
+div.slide9-bullets-2{
+	background: url(../chose-slide-9/1024x768/Bullet_02_10.png) no-repeat;
+	width: 401px;
+	height: 88px;
+	float: left;
+	margin-left: -13px;
+}
+div.slide9-bullets-3{
+	background: url(../chose-slide-9/1024x768/Bullet_03_10.png) no-repeat;
+	width: 401px;
+	height: 88px;
+	float: left;
+	margin-left: -13px;
+}
+div.slide9-bullets-4{
+	background: url(../chose-slide-9/1024x768/Bullet_04_10.png) no-repeat;
+	width: 401px;
+	height: 88px;
+	float: left;
+	margin-left: -13px;
+}
+
+div.slide10{
+	background: url(../chose-slide-10/1024x768/Fondo_11.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide10-pleca{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 308px;
+}
+div.slide10-titulo{
+	width: 831px;
+	height: 144px;
+	float: left;
+	margin-top: 118px;
+	margin-left: 50px;
+}
+div.slide10-titulo p.nestleBld{
+	line-height: 65px;
+	font-size: 50px;
+	color: #FFC211;
+	letter-spacing: 2px;
+	text-shadow: 1px 2px #999999;
+}
+div.slide10-titulo p.nestleBld span{ font-size: 72px; }
+div.slide10-titulo p.nestleLi{
+	font-size: 29px;
+    letter-spacing: 1px;
+    line-height: 34px;
+	color: #F50A55;
+}
+div.slide10-content{
+	width: 1024px;
+	height: 450px;
+	float: left;
+}
+div.slide10-content-trigo{
+	background: url(../chose-slide-10/1024x768/Hierba_11.png) no-repeat;
+	width: 556px;
+	height: 391px;
+	float: left;
+	margin-top: 70px;
+}
+div.slide10-content-trigo-ramas{
+	width: 450px;
+	height: 450px;
+	float: left;
+}
+div.slide10-content-derecha{
+	width: 468px;
+	float: right;
+	height: 450px;
+}
+div.slide10-content-derecha-fondo{
+	background: url(../chose-slide-10/1024x768/Fondo_azul_trigo_11.png) no-repeat;
+	width: 599px;
+	height: 434px;
+	margin-left: -133px;
+    margin-top: 28px;
+}
+div.slide10-content-derecha-fondo-bullets{
+	width: 441px;
+	height: 257px;
+	margin-left: 120px;
+    margin-top: 155px;
+	float: left;
+}
+div.slide10-content-derecha-fondo-bullets-1{
+	background: url(../chose-slide-10/1024x768/Bullet01_11.png) no-repeat;
+	width: 441px;
+	height: 86px;
+}div.slide10-content-derecha-fondo-bullets-2{
+	background: url(../chose-slide-10/1024x768/Bullet02_11.png) no-repeat;
+	width: 441px;
+	height: 86px;
+}div.slide10-content-derecha-fondo-bullets-3{
+	background: url(../chose-slide-10/1024x768/Bullet03_13.png) no-repeat;
+	width: 441px;
+	height: 86px;
+}
+
+div.slide11{
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide11-ventanas{
+	background: url(../chose-slide-2/1024x768/MESA-Y-VENTANA.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+div.slide11-ventanas-pleca{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 361px;
+}
+div.slide11-titulo{
+	width: 920px;
+	height: 157px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 120px;
+	line-height: 40px;
+}
+div.slide11-titulo p.nestleBld{ color: #B6D751; font-size: 58px; line-height: 75px;}
+div.slide11-titulo p.nestleLi{ color: #FD9500; font-size: 42px; letter-spacing: 1px;}
+div.slide11-titulo p.nestleLi span.nestleLi { color: #9351D7; font-size: 37px; }
+
+div.slide11-ventanas-contenedor{
+	width: 1024px;
+	height: 410px;
+}
+div.slide11-ventanas-contenedor-izquierda{
+	width: 512px;
+	height: 410px;
+	float: left;
+}
+div.slide11-ventanas-contenedor-izquierda-cuchara{
+	margin-left: 150px;
+	margin-top: 55px;
+}
+div.slide11-ventanas-contenedor-izquierda-si{
+	margin-left: 150px;
+	margin-top: 30px;
+}
+
+div.slide11-ventanas-contenedor-derecha{
+	width: 512px;
+	height: 410px;
+	float: right;
+}
+div.slide11-ventanas-contenedor-derecha-cucharas{
+	margin-left: 130px;
+	margin-top: 15px;
+}
+div.slide11-ventanas-contenedor-derecha-no{
+	margin-left: 130px;
+	margin-top: 20px;
+}
+
+div.slide12{
+	background: url(../chose-slide-12/1024x768/Fondo_13.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide12-pleca{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 312px;
+}
+div.slide12-titulo{
+	width: 875px;
+	height: 197px;
+	float: left;
+	margin-left: 55px;
+	margin-top: 90px;
+}
+div.slide12-titulo p.throwBld{ 
+	color: #FBC82D;
+    font-size: 90px;
+    letter-spacing: 1px;
+    line-height: 70px;
+    text-shadow: 2px 1px #999999; 
+}
+div.slide12-titulo p.nestleLi{ 
+	color: #ED125A;
+    font-size: 27px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+div.slide12-contenedor{
+	width: 1024px;
+	height: 455px;
+	margin-top: -60px;
+}
+div.slide12-contenedor-plato{
+	background: url(../chose-slide-12/1024x768/Plato_resplandor_13.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuarto1{
+	background: url(../chose-slide-12/1024x768/Rebanada01_13.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuarto2{
+	background: url(../chose-slide-12/1024x768/Rebanada02_13.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuarto3{
+	background: url(../chose-slide-12/1024x768/Rebanada03_13.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuarto4{
+	background: url(../chose-slide-12/1024x768/Rebanada04_13.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-1{
+	background: url(../chose-slide-12/1024x768/Cuchara_01.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-2{
+	background: url(../chose-slide-12/1024x768/Cuchara_02.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-3{
+	background: url(../chose-slide-12/1024x768/Cuchara_03.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-4{
+	background: url(../chose-slide-12/1024x768/Cuchara_04.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-5{
+	background: url(../chose-slide-12/1024x768/Cuchara_05.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-6{
+	background: url(../chose-slide-12/1024x768/Cuchara_06.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-7{
+	background: url(../chose-slide-12/1024x768/Cuchara_07.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-8{
+	background: url(../chose-slide-12/1024x768/Cuchara_08.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-cuchara-9{
+	background: url(../chose-slide-12/1024x768/Cuchara_09.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+div.slide12-contenedor-plato-brillo{
+	background: url(../chose-slide-12/1024x768/Brillo_13.png) no-repeat;
+	width: 1024px;
+	height: 515px;
+}
+
+div.slide13{
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide13-ventanas{
+	background: url(../chose-slide-2/1024x768/MESA-Y-VENTANA.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+div.slide13-ventanas-pleca{
+	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
+	width: 1024px;
+	height: 318px;
+}
+div.slide13-ventanas-pleca-titulo{
+	width: 619px;
+	height: 161px;
+	float: left;
+	margin-top: 115px;
+	margin-left: 90px;
+	letter-spacing: 1px;
+}
+div.slide13-ventanas-pleca-titulo p.nestleBld{
+	color: #FB8507;
+	margin: 0 0 0 15px;
+	font-size: 61px;
+    line-height: 70px;
+}
+div.slide13-ventanas-pleca-titulo p span.throwBld{
+	color: #F025B4;
+	font-size: 84px;
+    line-height: 81px;
+    letter-spacing: 1px;
+}
+div.slide13-ventanas-pleca-logo{
+	background: url(../chose-slide-13/1024x768/Logo_Gerber_14.png) no-repeat;
+	width: 203px;
+	height: 161px;
+	float: left;
+	margin-top: 115px;
+}
+div.slide13-contenedor{
+	width: 1024px;
+	height:470px;
+}
+div.slide13-contenedor-bullets{
+	width: 950px;
+	height: 390px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 75px;
+}
+div.slide13-contenedor-bullets-1{
+	width: 950px;
+	height: 48px;
+}
+div.slide13-contenedor-bullets-2{
+	width: 950px;
+	height: 48px;
+}
+div.slide13-contenedor-bullets-3{
+	width: 950px;
+	height: 48px;
+}
+div.slide13-contenedor-bullets-4{
+	width: 950px;
+	height: 48px;
+}
+div.slide13-contenedor-bullets-5{
+	width: 950px;
+	height: 48px;
+}
+
+div.slide14{
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide14-ventanas{
+	background: url(../chose-slide-2/1024x768/MESA-Y-VENTANA.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+div.slide14-ventanas-pleca{
+	background: url(../chose-slide-14/1024x768/Pleca_transparente_15.png) no-repeat;
+	width: 1024px;
+	height: 318px;
+}
+div.slide14-ventanas-pleca-titulo{
+	width: 625px;
+	height: 158px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 120px;
+}
+div.slide14-ventanas-pleca-titulo p.nestleBld{
+	color: #F025B4;
+	margin: 0 0 0 15px;
+	font-size: 61px;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+div.slide14-ventanas-pleca-titulo p span.throwBld{
+	color: #FB8507;
+	font-size: 84px;
+    line-height: 81px;
+    letter-spacing: 1px;
+}
+div.slide14-ventanas-pleca-logo{
+	background: url(../chose-slide-14/1024x768/Logo_nestum_15.png) no-repeat;
+	width: 291px;
+	height: 161px;
+	float: left;
+	margin-top: 120px;
+}
+div.slide14-cotenedor{
+	width: 1024px;
+	height: 460px;
+}
+div.slide14-cotenedor-bullets{
+	width: 945px;
+	height: 460px;
+	float: left;
+	margin-left: 80px;
+}
+div.slide14-cotenedor-bullets-titulo{
+	width: 945px;
+	height: 110px;
+}
+div.slide14-cotenedor-bullets-1{
+	width: 945px;
+	height: 37px;
+	margin-bottom: 10px;
+}
+div.slide14-cotenedor-bullets-2{
+	width: 945px;
+	height: 37px;
+	margin-bottom: 10px;
+}
+div.slide14-cotenedor-bullets-3{
+	width: 945px;
+	height: 37px;
+	margin-bottom: 10px;
+}
+div.slide14-cotenedor-bullets-4{
+	width: 945px;
+	height: 37px;
+	margin-bottom: 10px;
+}
+div.slide14-cotenedor-bullets-5{
+	width: 945px;
+	height: 37px;
+	margin-bottom: 10px;
+}
+div.slide14-cotenedor-bullets-6{
+	width: 945px;
+	height: 37px;
+	margin-bottom: 10px;
+}
+
+div.slide15{
+	background: url(../chose-slide-15/1024x768/Fondo_16.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide15-pleca{
+	background: url(../chose-slide-15/1024x768/Pleca_azul_16.png) no-repeat;
+	width: 1024px;
+	height: 235px;
+}
+div.slide15-titulo{
+	width: 921px;
+	height: 170px;
+	float: left;
+	margin-top: 65px;
+	margin-left: 50px;
+	letter-spacing: 1.1px;
+    line-height: 50px;
+    color:	#ffffff;
+}
+div.slide15-titulo p.nestleLi{ margin: 0 0 0 3px; }
+div.slide15-titulo p.throwBld{
+    font-size: 60px;
+    letter-spacing: 2px;
+    line-height: 56px;
+    margin: 0 0 0 10px;
+}
+div.slide15-contenedor{
+	width: 1024px;
+	height: 530px;
+}
+
+div.slide16{
+	background: url(../chose-slide-15/1024x768/Fondo_16.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide16-pleca{
+	background: url(../chose-slide-16/1024x768/Pleca_azul_17.png) no-repeat;
+	width: 1024px;
+	height: 237px;
+}
+div.slide16-pleca-logo{
+	background: url(../chose-slide-16/1024x768/Logo_gerber_17.png) no-repeat;
+	width: 220px;
+	height: 177px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+div.slide16-pleca-titulo{
+    width: 675px;
+    height: 87px;
+    float: left;
+    margin-top: 100px;
+    font-size: 87px;
+	color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 84px;
+}
+div.slide16-contenedor{
+	width: 1024px;
+	height: 535px;
+}
+div.slide16-contenedor-marco-top{
+	width: 1024px;
+	height: 160px;
+}
+div.slide16-contenedor-bote1{
+	background: url(../chose-slide-16/1024x768/Gerber_4_cereales_17.png) no-repeat;
+	width: 228px;
+	height: 277px;
+	margin-left: 345px;
+}
+div.slide16-contenedor-bote2{
+	background: url(../chose-slide-16/1024x768/Gerber_avena_17.png) no-repeat;
+	height: 277px;
+    margin-left: 141px;
+    margin-top: -277px;
+    width: 228px;
+}
+div.slide16-contenedor-bote1-texto1{
+	width: 222px;
+	height: 143px;
+	float: left;
+	margin: 159px 0 0 -27px;
+}
+div.slide16-contenedor-bote2-texto2{
+	width: 220px;
+	height: 142px;
+	float: left;
+	margin-top: -450px;
+}
+div.slide16-contenedor-bote3{
+	background: url(../chose-slide-16/1024x768/Gerber_arroz_avena_17.png) no-repeat;
+	width: 164px;
+	height: 272px;
+	margin-top: -272px;
+	margin-left: 530px;
+}
+div.slide16-contenedor-bote3-texto3{
+	width: 142px;
+	height: 182px;
+	float: left;
+	margin-top: -460px;
+}
+div.slide16-contenedor-bote4{
+	background: url(../chose-slide-16/1024x768/Gerber_arroz_17.png) no-repeat;
+	width: 150px;
+	height: 188px;
+	margin-top: -155px;
+	margin-left: 75px;
+}
+div.slide16-contenedor-bote4-texto4{
+	width: 220px;
+	height: 142px;
+	float: left;
+	margin: -134px 0 0 -84px;
+}
+div.slide16-contenedor-bote5{
+	background: url(../chose-slide-16/1024x768/Gerber_trigo_manzana.png) no-repeat;
+	width: 169px;
+	height: 272px;
+	margin-top: -270px;
+	margin-left: 650px;
+}
+div.slide16-contenedor-bote5-texto5{
+	width: 143px;
+	height: 180px;
+	float: left;
+	margin: -450px 0 0 30px;
+}
+div.slide16-contenedor-bote6{
+	background: url(../chose-slide-16/1024x768/Gerber_trigo_miel_17.png) no-repeat;
+	width: 166px;
+	height: 275px;
+	margin-top: -240px;
+	margin-left: 760px;
+}
+div.slide16-contenedor-bote6-texto6{
+	width: 142px;
+	height: 182px;
+	float: left;
+	margin: -400px 0 0 20px;
+}
+
+div.slide17{
+	background: url(../chose-slide-15/1024x768/Fondo_16.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide17-pleca{
+	background: url(../chose-slide-17/1024x768/Pleca_azul_18.png) no-repeat;
+	width: 1024px;
+	height: 238px;
+}
+div.slide17-pleca-logo{
+	background: url(../chose-slide-17/1024x768/Logo_nestum_18.png) no-repeat;
+	width: 284px;
+	height: 161px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+div.slide17-pleca-titulo{
+	width: 681px;
+	height: 95px;
+	float: left;
+	margin-top: 95px;
+	font-size: 87px;
+	color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 84px;
+}
+div.slide17-contenedor{
+	width: 1024px;
+	height: 532px;
+}
+div.slide17-contenedor-marco-top{
+	width: 1024px;
+	height: 150px;
+}
+div.slide17-contenedor-bote1{
+	background: url(../chose-slide-17/1024x768/Nes_Arroz_18.png) no-repeat;
+	width: 249px;
+	height: 264px;
+	margin-top: 0px;
+	margin-left: 55px;
+}
+div.slide17-contenedor-bote1-texto1{
+	width: 219px;
+	height: 142px;
+	float: left;
+	margin-top: 100px;
+	margin-left: -35px;
+}
+div.slide17-contenedor-bote2{
+	background: url(../chose-slide-17/1024x768/Nes_8cereales_18.png) no-repeat;
+	width: 215px;
+	height: 251px;
+	margin-top: -260px;
+	margin-left: 745px;
+}
+div.slide17-contenedor-bote2-texto2{
+	width: 219px;
+	height: 142px;
+	float: left;
+	margin: -120px 0 0 -40px;
+}
+div.slide17-contenedor-bote3{
+	background: url(../chose-slide-17/1024x768/Nes_avena_18.png) no-repeat;
+	width: 289px;
+	height: 265px;
+	margin-top: -240px;
+	margin-left: 195px;
+}
+div.slide17-contenedor-bote3-texto3{
+	width: 222px;
+	height: 140px;
+	float: left;
+	margin-top: -135px;
+	margin-left: -5px;
+}
+div.slide17-contenedor-bote4{
+	background: url(../chose-slide-17/1024x768/Nes_trigo_miel_18.png) no-repeat;
+	width: 217px;
+	height: 254px;
+	margin-top: -247px;
+	margin-left: 574px;
+}
+div.slide17-contenedor-bote4-texto4{
+	width: 140px;
+	height: 180px;
+	float: left;
+	margin-top: -169px;
+	margin-left: 38px;
+}
+div.slide17-contenedor-bote5{
+	background: url(../chose-slide-17/1024x768/Nes_trigo_manzana_platano_18.png) no-repeat;
+	width: 238px;
+	height: 283px;
+	margin-top: -260px;
+	margin-left: 385px;
+}
+div.slide17-contenedor-bote5-texto5{
+	width: 220px;
+	height: 141px;
+	float: left;
+	margin: 127px 0 0 8px;
+}
+div.slide17-contenedor-bote6{
+	background: url(../chose-slide-17/1024x768/Nes_4_cereales_18.png) no-repeat;
+	width: 191px;
+	height: 238px;
+	margin-top: -190px;
+	margin-left: 690px;
+}
+div.slide17-contenedor-bote6-texto6{
+	width: 220px;
+	height: 142px;
+	float: left;
+	margin: 53px 0 0 11px;
+}
+
+div.slide18{
+	width: 1024px;
+	height: 768px;
+	overflow: hidden;
+}
+div.slide18-ventanas{
+	background: url(../chose-slide-2/1024x768/MESA-Y-VENTANA.jpg) no-repeat;
+	width: 1024px;
+	height: 768px;
+}
+div.slide18-ventanas-pleca{
+	background: url(../chose-slide-18/1024x768/Pleca_transparente_b.png) no-repeat;
+	width: 1024px;
+	height: 329px;
+}
+div.slide18-ventanas-pleca-titulo{
+	width: 489px;
+	height: 130px;
+	float: left;
+	margin-top: 185px;
+	margin-left: 170px;
+	font-size: 89px;line-height: 111px;
+	color: #FD8504;
+}
+div.slide18-ventanas-contenedor{
+	width: 1024px;
+	height: 470px;
+}
+div.slide18-ventanas-contenedor-lista{
+	width: 973px;
+	height: 400px;
+	margin-left: 50px;
+	overflow-y: scroll;
+	overflow-x: hidden; 
+}
+p.lista{
+	font-size: medium;
+	color: #875129;
+	font-weight: bold;
+}

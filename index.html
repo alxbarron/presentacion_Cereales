@@ -1,0 +1,628 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head lang="en">
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+	<meta name="viewport" content="height=768" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link href="css/jquery-ui.min.css" rel="stylesheet" />
+	<link href="css/impress-demo.css" rel="stylesheet" />
+	<link href="css/animate.css" rel="stylesheet" />
+	<link href="css/sitio.css" rel="stylesheet" />
+	<script src="js/jquery10.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/animaciones.js"></script>
+	<title>PresCssImpress</title>
+</head>
+<body class="impress-not-supported">
+	<!--<div class="fallback-message">
+		<p>Tu explorador <b>no es compatible</b> con esta presentación</p>
+		<p>Para una mejor experiencia utiliza como explorardor <b>Chrome</b>, <b>Safari</b> o <b>Firefox</b></p>
+	</div>-->
+	<div id="impress">
+	<div class="fondo-impress">
+		<div class="fondo-impress">
+		<!--Slide Uno-->
+		<div id="title" class="step" data-x="-300" data-y="-100" data-z="1" data-rotate-x="90" data-rotate-z="90" data-scale=".25">
+			<div class="slide1">
+				<div class="animated rotateIn slide1-sol">
+				</div>
+				<div class="slide1-bebe">
+					<div class="slide1-legal">
+						<div class="slide1-logo">
+							<div class="slide1-mano">
+								<div class="slide1-energia">
+									<p class="nestleBld">La energ&iacute;a <br />
+										<span class="1">para CRECER</span></p>
+									<p class="throwBld">todos los d&iacute;as.</p>
+									<div class="slide1-crecer">
+										<div class="slide1-todos-dias">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Slide Dos -->
+		<div  id="s2" class="step" data-x="-300" data-y="100" data-z="0" data-rotate-y="-90" data-rotate-z="0" data-scale=".25">
+			<div class="slide2">
+				<div id="s2-ventana" class="slide2-ventana hide">
+					<div id="s2txt" class="slide2-texto hide">
+						<div class="slide2-titulo nestleBldMed hide">
+							<p>¿Ha recomendado <br />
+								<span class="s2-txt">&nbsp;&nbsp;
+									<span class="nestleLi">a las mam&aacute;s de sus</span> peque&ntilde;os pacientes
+								</span> <br />&nbsp;
+								incluir <span class="throwMed">cereales</span> en su dieta ?</p>
+						</div>
+					</div>
+					<div class="slide2-siNo">
+						<div class="slide2-pAzul hide"><A href="#s5"><img src="chose-slide-2/1024x768/si.png"></A></div>
+						<div class="slide2-pMorado hide"><A href="#s3"><img src="chose-slide-2/1024x768/no.png"></A></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Slide Tres -->
+		<div id="s3" class="step" data-x="529" data-y="340" data-z="0" data-rotate-z="-9" data-scale=".23">
+			<div class="slide3">
+				<div class="slide3-mantel">
+					<div class="slide3-barra hide">
+						<div class="slide3-titulo">
+							<p class="throwBldBig hide">La ablactaci&oacute;n</p>
+							<p class="nestleLi hide">Despu&eacute;s de los 6 meses, <span class="nestleBld">la leche materna deja de ser 
+								suficiente para satisfacer las necesidades nutrimentales 
+								del beb&eacute;</span> por lo que se recomienda introducir alimentos 
+								complementarios</p>
+						</div>
+					</div>
+					<div class="slide3-texto">
+						<div class="slide3-bebe hide"></div>
+						<div class="slide3-bullets">
+							<img class="slide3-3 hide" src="chose-slide-3/1024x768/para.png">
+							<img class="slide3-4 hide" src="chose-slide-3/1024x768/aporta_energia.png">
+							<img class="slide3-5 hide" src="chose-slide-3/1024x768/desarrollar_habitos.png">
+							<img class="slide3-6 hide" src="chose-slide-3/1024x768/estimular.png">
+							<img class="slide3-7 hide" src="chose-slide-3/1024x768/legal_oms.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Slide Cuatro -->
+		<div id="s4" class="step" data-x="120" data-y="178" data-z="0" data-rotate-z="-69" data-scale=".25">
+			<div class="slide4">
+				<div class="slide4-mantel">
+					<div class="slide4-barra hide">
+						<div class="slide4-barra-texto hide">
+							<p class="throwBld">La energ&iacute;a</p>
+						</div>
+					</div>
+					<div class="slide4-contenedor hide">
+						<div class="slide4-contenedor-video">
+							<div class="slide4-contenedor-video-margen">
+								<video id='media-video' src="video/nestle2.mp4" controls width="642" height="480" class="video-nestle"></video>
+							</div>
+						</div>
+						<div id='media-controls'>
+							<button id='play-pause-button' class='play' title='play' ></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Cinco-->
+		<div id="s5" class="step" data-x="180" data-y="660" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="180" data-scale=".30">
+			<div class="slide5">
+				<div class="slide5-pleca hide">
+					<div class="slide5-titulo nestleBld">
+						<p>¿Sus pacientes han presentado alguno de estos padecimientos <br />
+							<span class="throwBld">entre los 6 y 12 meses de edad?</span></p>
+					</div>
+				</div>
+				<div class="slide5-contenedor">
+					<div class="slide5-contenedor-chavo-texto hide">
+						<div class="slide5-chavo">	
+						</div>
+					</div>
+					<div class="slide5-contenedor-plato-cereales hide">
+						<div class="slide5-contenedor-plato-cereales-cereales">
+							<div name="obesidad" class="slide5-contenedor-plato-cereales-cereales-facil switch">
+							</div>
+							<div name="desarrollo" class="slide5-contenedor-plato-cereales-cereales-anemia switch">
+							</div>
+							<div name="alergia" class="slide5-contenedor-plato-cereales-cereales-obecidad switch">
+							</div>
+							<div name="digestion" class="slide5-contenedor-plato-cereales-cereales-alergias switch">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Slide Seis -->
+		<div id="s6" class="step" data-x="682" data-y="47" data-rotate-z="-126" data-z="0" data-scale=".25">
+			<div class="slide6">
+				<div class="slide6-mantel">
+					<div class="slide6-mantel-pleca hide">
+						<div class="slide6-mantel-pleca-texto-titulo">
+							<div class="slide6-titulo nestleBld hide">
+								<p><span class="throwBld">El cereal</span> previene el desarrollo de anemia</p>
+							</div>
+						</div>
+						<div class="slide6-mantel-pleca-babero hide">
+							<div class="slide6-mantel-pleca-babero-conciencia">
+								
+								<div class="slide6-mantel-pleca-babero-conciencia-texto-1 hide">
+									<img  class="slide6-2" src="chose-slide-6/1024x768/TITULO-BABERO-CONSECUENCIAS.png">
+								</div>
+								<div class="slide6-mantel-pleca-babero-conciencia-texto-2 hide">
+									<div class="slide6-mantel-pleca-babero-conciencia-bullet"></div>
+									<img  class="slide6-2" src="chose-slide-6/1024x768/TEXTO-MENORES-CAPACIDADES.png">
+								</div>
+								<div class="slide6-mantel-pleca-babero-conciencia-texto-3 hide">
+									<div class="slide6-mantel-pleca-babero-conciencia-bullet"></div>
+									<img  class="slide6-3" src="chose-slide-6/1024x768/TEXTO-MENOR-ACTIVIDAD.png">
+								</div>
+								<div class="slide6-mantel-pleca-babero-conciencia-texto-4 hide">
+									<div class="slide6-mantel-pleca-babero-conciencia-bullet"></div>
+									<img  class="slide6-4" src="chose-slide-6/1024x768/TEXTO-BAJO-RENDIMIENTO.png">
+								</div>
+								<div class="slide6-mantel-pleca-babero-conciencia-texto-5 hide">
+									<div class="slide6-mantel-pleca-babero-conciencia-bullet"></div>
+									<img  class="slide6-5" src="chose-slide-6/1024x768/TEXTO-INCREMENTO.png">
+								</div>
+							</div>
+						</div>
+						<div class="slide6-mantel-pleca-texto-estima">
+							<div class="slide6-texto nestleLi hide">
+								<p>Se estima que en M&eacute;xico un <span class="nestleBld">38%</span> 
+									de los ni&ntilde;os menores de 2 a&ntilde;os presentan 
+									<span class="nestleBld">anemia por deficiencia de hierro</span></p>
+							</div>
+						</div>
+						<div class="slide6-mantel-pleca-trigo hide">
+							<img  class="slide6-7" src="chose-slide-6/1024x768/TRIGO.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Slide Siete -->
+		<div id="s7" class="step" data-x="874" data-y="305" data-z="0" data-rotate-z="18" data-scale=".26">
+			<div class="slide7">
+				<div class="slide7-mantel">
+					<div class="slide7-mantel-pleca hide">
+						<div class="slide7-mantel-pleca-texto-titulo">
+							<div class="slide7-titulo nestleLi hide">
+								<span class="nestleBldMed">La Asociaci&oacute;n Mexicana de Pediatr&iacute;a</span>
+									<p>estableci&oacute; que un beb&eacute; que se encuentre entre los 6 y 12 meses, 
+										debe ser cubierto con <span class="nestleBld">alimentos complementarios ricos 
+										en hierro.&sup3;</span>
+								</p>
+							</div>
+						</div>
+						<div class="slide7-mantel-pleca-texto-cereal">
+							<div class="slide7-mantel-pleca-texto-cereal-texto">
+								<img  class="slide7-3 hide" src="chose-slide-7/1024x768/TEXTO-EL-CEREAL.png">
+							</div>
+							<div class="slide7-mantel-pleca-trigo hide"></div>
+						</div>
+						<div class="slide7-mantel-pleca-bebe hide">
+							<img  class="slide7-4 hide" src="chose-slide-7/1024x768/CUCHARA.png">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<!--Slide Nueve-->
+		<div id="s9" class="step" data-x="462" data-y="705" data-z="0" data-rotate-z="135" data-scale=".255">
+			<div class="slide9">
+				<div class="slide9-pleca hide">
+					<div class="slide9-titulo">
+						<p class="nestleBld hide"><span class="throwBld">El cereal</span> previene la obesidad <br/>
+						y el sobrepeso</p>
+						<p class="nestleLi hide">En la ablactaci&oacute;n se inicia la adquisici&oacute;n de h&aacute;bitos alimneticios que son la mejor estrategia para prevenir la obesidad y las enfermedades metab&oacute;licas</p>
+					</div>
+				</div>
+				<div class="slide9-mama">
+					<img class="slide9-1 hide" src="chose-slide-9/1024x768/Mama_ninio_10.png">
+				</div>
+				<div class="slide9-bullets">
+					<div class="slide9-bullets-1 hide"></div>
+					<div class="slide9-bullets-2 hide"></div>
+					<div class="slide9-bullets-3 hide"></div>
+					<div class="slide9-bullets-4 hide"></div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Ocho-->
+		<div id="s8" class="step" data-x="680" data-y="470" data-z="0"  data-rotate-z="4" data-scale=".26">
+			<div class="slide8">
+				<div class="slide8-pleca hide">
+					<div class="slide8-pleca-titulo nestleBld hide">
+						<p><span class="throwBld">El cereal</span> disminuye el riesgo de alergias alimentarias <span class="nestleLi">si se consume en el momento oportuno</span></p>
+					</div>
+					<div class="slide8-babero hide">
+						<img class="slide8-1" src="chose-slide-8/1024x768/">
+					</div>
+					<div class="slide8-textos">
+						<div class="slide8-textos-contenedor1">
+							
+							<div class="slide8-textos-contenedor1-pleca hide">
+								
+								<div class="slide8-textos-contenedor1-pleca-titulo">
+								</div>
+								<div class="slide8-textos-contenedor1-pleca-texto">
+								</div>
+							</div>
+						</div>
+						<div class="slide8-textos-contenedor2">
+							
+							<div class="slide8-textos-contenedor2-pleca hide">
+								
+								<div class="slide8-textos-contenedor2-pleca-titulo">
+								</div>
+								<div class="slide8-textos-contenedor2-pleca-texto">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Diez-->
+		<div id="s10" class="step" data-x="152" data-y="435" data-z="0" data-scale=".26">
+			<div class="slide10">
+				<div class="slide10-pleca hide">
+					<div class="slide10-titulo">
+						<p class="nestleBld hide"><span class="throwBld">El cereal</span> 
+							es de f&aacute;cil digesti&oacute;n</p>
+						<p class="nestleLi hide">Ya que pasan a trav&eacute;s de un proceso de <span class="nestleBld">hidr&oacute;lisis enzim&aacute;tica, 
+						</span> que <span class="nestleBld">proporciona diferentes beneficios:</span></p>
+					</div>
+				</div>
+				<div class="slide10-content">
+					<div class="slide10-content-trigo hide">
+						<div class="slide10-content-trigo-ramas">
+							<img class="slide10-1" src=""> 
+						</div>
+					</div>
+					<div class="slide10-content-derecha">
+						<div class="slide10-content-derecha-fondo hide">
+							<div class="slide10-content-derecha-fondo-bullets">
+								<div class="slide10-content-derecha-fondo-bullets-1 hide"></div>
+								<div class="slide10-content-derecha-fondo-bullets-2 hide"></div>
+								<div class="slide10-content-derecha-fondo-bullets-3 hide"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Doce-->
+		<div id="s12" class="step" data-x="390" data-y="130" data-z="0"  data-rotate-z="-11"  data-scale=".26">
+			<div class="slide12">
+				<div class="slide12-pleca hide">
+					<div class="slide12-titulo">
+						<p class="throwBld hide">Los cereales infantiles</p>
+						<p class="nestleLi hide">adem&aacute;s de ser <span class="nestleBld">nutrimentalmente 
+							superiores</span> a otros alimentos, son un medio de consumo de fibras: que ayudan 
+							en el manejo de la constipaci&oacute;n y <span class="nestleBld">contribuyen a 
+							regular la motilidad intestinal.</span></p>
+					</div>
+				</div>
+				<div class="slide12-contenedor">
+					<div class="slide12-contenedor-plato hide">
+						<div class="slide12-contenedor-plato-cuarto1 hide">
+							<div class="slide12-contenedor-plato-cuarto2 hide">
+								<div class="slide12-contenedor-plato-cuarto3 hide">
+									<div class="slide12-contenedor-plato-cuarto4 hide">
+										<div class="slide12-contenedor-plato-brillo hide">
+											<div class="slide12-contenedor-plato-cuchara-1 hide">
+												<div class="slide12-contenedor-plato-cuchara-2 hide">
+													<div class="slide12-contenedor-plato-cuchara-3 hide">
+														<div class="slide12-contenedor-plato-cuchara-4 hide">
+															<div class="slide12-contenedor-plato-cuchara-5 hide">
+																<div class="slide12-contenedor-plato-cuchara-6 hide">
+																	<div class="slide12-contenedor-plato-cuchara-7 hide">
+																		<div class="slide12-contenedor-plato-cuchara-8 hide">
+																			<div class="slide12-contenedor-plato-cuchara-9 hide">
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Once-->
+		<div id="s11" class="step" data-x="1040" data-y="180" data-z="0" data-rotate-y="90" data-rotate-y="-90" data-rotate-z="-90" data-scale=".05">
+			<div class="slide11">
+				<div class="slide11-ventanas hide">
+					<div class="slide11-ventanas-pleca hide">
+						<div class="slide11-titulo hide">
+							<p class="nestleBld">¿Le gustar&iacute;a conocer que hace</p>
+							<p class="nestleLi">de los <span class="throw">cereales infantiles</span> 
+								<span class="nestleBld">Nestl&eacute;</span>&reg; un alimento clave 
+								<span class="nestleLi">en la etapa de ablactaci&oacute;n de sus peque&ntilde;os pacientes?</span></p>
+						</div>
+					</div>
+					<div class="slide11-ventanas-contenedor">
+						<div class="slide11-ventanas-contenedor-izquierda hide">
+							<div class="slide11-ventanas-contenedor-izquierda-cuchara">
+									<A href="#s16"><img class="slide11-1" src="chose-slide-11/1024x768/Cuchara_azul_12.png"></A>
+							</div>
+							<div class="slide11-ventanas-contenedor-izquierda-si">
+								<A href="#s16"><img class="slide11-1" src="chose-slide-11/1024x768/SI_12.png"></A>
+							</div>
+						</div>
+						<div class="slide11-ventanas-contenedor-derecha hide">
+							<div class="slide11-ventanas-contenedor-derecha-cucharas">
+									<A href="#s15"><img class="slide11-2" src="chose-slide-11/1024x768/Cucharas_rojas_12.png"></A>
+							</div>
+							<div class="slide11-ventanas-contenedor-derecha-no">
+								<A href="#s15"><img class="slide11-2" src="chose-slide-11/1024x768/NO_12.png"></A>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Slide Dieciseis-->
+		<div id="s16" class="step" data-x="290" data-y="1068" data-z="-100" data-scale=".05" data-rotate-x="90" data-rotate-y="0" data-rotate-z="0">
+			<div class="slide16">
+				<div class="slide16-pleca hide">
+					<div class="slide16-pleca-logo hide">
+					</div>
+					<div class="slide16-pleca-titulo hide">
+						<p class="nestleBld">Cereales <span class="throwBld">infantiles</span></p>
+					</div>
+				</div>
+				<div class="slide16-contenedor hide">
+					<div class="slide16-contenedor-marco-top">
+					</div>
+					<div class="slide16-contenedor-bote1 bote">
+						
+						<div class="slide16-contenedor-bote1-texto1">
+							<img class="hide" src="chose-slide-16/1024x768/letrero_06.png">
+						</div>
+					</div>
+					<div class="slide16-contenedor-bote2 bote">
+						<div class="slide16-contenedor-bote2-texto2">
+							<img class="hide" src="chose-slide-16/1024x768/letrero_01.png">
+						</div>
+					</div>
+					<div class="slide16-contenedor-bote3 bote">
+						<div class="slide16-contenedor-bote3-texto3">
+							<img class="hide" src="chose-slide-16/1024x768/letrero_02.png">
+						</div>
+					</div>
+					<div class="slide16-contenedor-bote4 bote">
+						<div class="slide16-contenedor-bote4-texto4">
+							<img class="hide" src="chose-slide-16/1024x768/letrero_05.png">
+						</div>
+					</div>
+					<div class="slide16-contenedor-bote5 bote">
+						<div class="slide16-contenedor-bote5-texto5">
+							<img class="hide" src="chose-slide-16/1024x768/letrero_03.png">
+						</div>
+					</div>
+					<div class="slide16-contenedor-bote6 bote">
+						<div class="slide16-contenedor-bote6-texto6">
+							<img class="hide" src="chose-slide-16/1024x768/letrero_04.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Trece-->
+		<div id="s13" class="step" data-x="-500" data-y="640" data-z="0" data-rotate-x="-90" data-rotate-y="-90" data-rotate-z="-90" data-scale=".5">
+			<div class="slide13 hide">
+				<div class="slide13-ventanas hide">
+					<div class="slide13-ventanas-pleca hide">
+						<div class="slide13-ventanas-pleca-titulo hide">
+							<p class="nestleBld">Caracter&iacute;sticas de los 
+								<span class="throwBld">cereales infantiles</span></p>
+						</div>
+						<div class="slide13-ventanas-pleca-logo hide">
+						</div>
+					</div>
+					<div class="slide13-contenedor">
+						<div class="slide13-contenedor-bullets">
+							<div class="slide13-contenedor-bullets-1">
+								<img class="slide13-1 hide" src="chose-slide-13/1024x768/Bullet01_14.png">
+							</div>
+							<div class="slide13-contenedor-bullets-2">
+								<img class="slide13-2 hide" src="chose-slide-13/1024x768/Bullet02_14.png">
+							</div>
+							<div class="slide13-contenedor-bullets-3">
+								<img class="slide13-3 hide" src="chose-slide-13/1024x768/Bullet03_14.png">
+							</div>
+							<div class="slide13-contenedor-bullets-4">
+								<img class="slide13-4 hide" src="chose-slide-13/1024x768/Bullet04_14.png">
+							</div>
+							<div class="slide13-contenedor-bullets-5">
+								<img class="slide13-5 hide" src="chose-slide-13/1024x768/Bullet05_14.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Diecisiete-->
+		<div id="s17" class="step" data-x="90" data-y="1068" data-z="-100" data-scale=".05" data-rotate-x="120" data-rotate-y="270" data-rotate-z="0">
+			<div class="slide17">
+				<div class="slide17-pleca hide">
+					<div class="slide17-pleca-logo hide">
+					</div>
+					<div class="slide17-pleca-titulo hide">
+						<p class="nestleBld">Cereales <span class="throwBld">infantiles</span></p>
+					</div>
+				</div>
+				<div class="slide17-contenedor hide">
+					<div class="slide17-contenedor-marco-top">
+					</div>
+					<div class="slide17-contenedor-bote1 bote">
+						
+						<div class="slide17-contenedor-bote1-texto1">
+							<img class="hide" src="chose-slide-17/1024x768/Info_cereal_arroz_18.png">
+						</div>
+					</div>
+					<div class="slide17-contenedor-bote2 bote">
+						<div class="slide17-contenedor-bote2-texto2">
+							<img class="hide" src="chose-slide-17/1024x768/Info_8_cereales_18.png">
+						</div>
+					</div>
+					<div class="slide17-contenedor-bote3 bote">
+						<div class="slide17-contenedor-bote3-texto3">
+							<img class="hide" src="chose-slide-17/1024x768/Info_avena_18.png">
+						</div>
+					</div>
+					<div class="slide17-contenedor-bote4 bote">
+						<div class="slide17-contenedor-bote4-texto4">
+							<img class="hide" src="chose-slide-17/1024x768/Info_trigo_miel.png">
+						</div>
+					</div>
+					<div class="slide17-contenedor-bote5 bote">
+						<div class="slide17-contenedor-bote5-texto5">
+							<img class="hide" src="chose-slide-17/1024x768/Info_cereal_trigo_manzana.png">
+						</div>
+					</div>
+					<div class="slide17-contenedor-bote6 bote">
+						<div class="slide17-contenedor-bote6-texto6">
+							<img class="hide" src="chose-slide-17/1024x768/Info_4_cereales_18.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Catorce-->
+		<div id="s14" class="step" data-x="1080" data-y="540" data-z="0" data-rotate-x="90" data-rotate-y="90" data-rotate-z="90" data-scale=".25" >
+			<div class="slide14">
+				<div class="slide14-ventanas">
+					<div class="slide14-ventanas-pleca hide">
+						<div class="slide14-ventanas-pleca-titulo hide">
+							<p class="nestleBld">Caracter&iacute;sticas de los 
+								<span class="throwBld">cereales infantiles</span></p>
+						</div>
+						<div class="slide14-ventanas-pleca-logo hide">
+						</div>
+					</div>
+					<div class="slide14-cotenedor">
+						<div class="slide14-cotenedor-bullets">
+							<div class="slide14-cotenedor-bullets-titulo">
+								<img class="slide14-1 hide" src="chose-slide-14/1024x768/Subtitulo_verde_15.png">
+							</div>
+							<div class="slide14-cotenedor-bullets-1">
+								<img class="slide14-2 hide" src="chose-slide-14/1024x768/Bullet01_15.png">
+							</div>
+							<div class="slide14-cotenedor-bullets-2">
+								<img class="slide14-3 hide" src="chose-slide-14/1024x768/Bullet02_15.png">
+							</div>
+							<div class="slide14-cotenedor-bullets-3">
+								<img class="slide14-4 hide" src="chose-slide-14/1024x768/Bullet03_15.png">
+							</div>
+							<div class="slide14-cotenedor-bullets-4">
+								<img class="slide14-5 hide" src="chose-slide-14/1024x768/Bullet04_15.png">
+							</div>
+							<div class="slide14-cotenedor-bullets-5">
+								<img class="slide14-6 hide" src="chose-slide-14/1024x768/Bullet05_15.png">
+							</div>
+							<div class="slide14-cotenedor-bullets-6">
+								<img class="slide14-7 hide" src="chose-slide-14/1024x768/Bullet06_15.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Slide Quince-->
+		<div id="s15" class="step" data-x="90" data-y="868" data-z="-100" data-scale=".05" data-rotate-x="90" data-rotate-y="180" data-rotate-z="0">
+			<div class="slide15">
+				<div class="slide15-pleca hide">
+					<div class="slide15-titulo hide">
+						<p class="nestleLi">Usted puede <span class="nestleBld">ayudar a prevenir</span> diversos problemas alimentarios con la</p>							<p class="throwBld">linea de cereales infantiles <span class="nestleBld">Nestle&reg;</span></p>
+					</div>
+				</div>
+				<div class="slide15-contenedor">
+					<img class="slide15-1 hide" src="chose-slide-15/1024x768/Family_shot_16.png">
+				</div>
+			</div>
+		</div>
+		<!--Slide Dieciocho-->
+		<div id="s18" class="step" data-x="512" data-y="850" data-z="278" data-scale=".7" data-rotate-x="-90" data-rotate-y="0" data-rotate-z="0">
+			<div class="slide18 hide">
+				<div class="slide18-ventanas">
+					<div class="slide18-ventanas-pleca">
+						<div class="slide18-ventanas-pleca-titulo">
+							<p class="nestleBld">Bibliograf&iacute;a</p>
+						</div>
+					</div>
+					<div class="slide18-ventanas-contenedor">
+						<div class="slide18-ventanas-contenedor-lista">
+							<p class="lista">
+								1. Latham M. Nutrición humana en el mundo en desarrollo. Colección FAO: Alimentación y Nutrición. 2002; 29. Disponible en: <a href="http://www.fao.org/docrep/006/w0073s/w0073s00.htm">www.fao.org/docrep/006/w0073s/w0073s00.htm.</a> [Citado el 22 de Noviembre, 2008].</p>
+							<p class="lista">
+								2. Mengod CB. Cereales y derivados. En: Hernández M, Sastre A. Tratado de nutrición. Madrid: Díaz de Santos; 1999:401-412.</p>
+							<p class="lista">
+								3. Asociación Mexicana de Pediatría. Primer consenso nacional sobre alimentación en el primer año de la vida. Acta Pediátrica Mexicana 2007; 28(5):213-41.</p>
+							<p class="lista">
+								4. Vega L. Nutrición en el primer año de vida. En: Nutriología Médica, 2ª ed. Editorial Médica Panamericana. 2001:42-55.</p>
+							<p class="lista">
+								5. Poole JA, Barriga K, Leung DY, Hoffman M, Eisenbarth GS, Rewers M et al. Timing of initial exposure to cereal grains and the risk of wheat allergy. Pediatrics 2006; 117; 1275-2182.</p>
+							<p class="lista">
+								6. Nestle Nutrition. Nestlé Infant Cereals. Nestlé Nutrition Fact book 2007.</p>
+							<p class="lista">
+								7. McKevith B. Nutritional aspects of cereals. British nutrition foundation nutrition bulletin; 29:111-142</p>
+							<p class="lista">
+								8. De Chavez MM, Hernandez M, Roldán JA. Tablas de uso práctico del valor nutritivo de los alimentos. Comisión Nacional de Alimentacion INCMNSZ. 1992.</p>
+							<p class="lista">
+								9. Instituto Nacional de Salud Pública. Resultados Encuesta Nacional de Salud y Nutrición. 2006.</p>
+							<p class="lista">
+								10. Toussaint G. Alimentación del lactante. En: Manual de dietas normales y terapéuticas: Los alimentos en la salud y en la enfermedad. Ediciones científicas La Prensa Médica Mexicana. 2003:81-98.</p>
+							<p class="lista">
+								11. Maffeis C, Tatá L. Physiologic factors related to the onset and persistance of childhood and adolescent obesity. Nestle Nutr Workshop Ser Pediatric Program. 2001;49:131-142.</p>
+							<p class="lista">
+								12. Bray GA. Novel approaches to the reduction and control of body fat mass. 2002;51:119-131.</p>
+							<p class="lista">
+								13. Perez A, Marván L. Manual de dietas normales y terapéuticas. La prensa Médica. 5ª edición. 2005. Páginas 91-96.</p>
+							<p class="lista">
+								14. Chavez A. Ledesma, recomendaciones de nutrimentos para México. Disponible en: <a href="http://www.nutripac.com.mx'software'rec-mex.pdf">www.nutripac.com.mx’software’rec-mex.pdf</a></p>
+							<p class="lista">
+								15. Casanueva E, Kaufer M, Pérez-Lizaur A, Arroyo P. Nutriología Médica. Ed. Panamericana 2ª edición. México 2008. Página 59-75, 579.</p>
+							<p class="lista">
+								16. Norma Oficial Mexicana NOM-043-SSA2-2012, Servicios básicos de salud. Promoción y educación para la salud en materia alimentaria. Criterios para brindar orientación.</p>
+							<p class="lista">
+								17. Vásquez-Garibay E, Romero-Velarde E. Esquemas de alimentación saludable en niños durante sus diferentes etapas de la vida. Parte I. Primeros dos años de vida. Bol Med Hosp Infant Mex. Vol. 65, Noviembre-Diciembre 2008.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="overview" class="step" data-x="500" data-y="383" data-z="0" data-scale="1">
+		</div>
+		</div>
+	</div>
+	</div>
+	<div class="hint">
+		<p>Usa la barra espaciadora o las flechas para navegar</p>
+	</div>
+	<script src="js/impress.js"></script>
+</body>
+</html>
