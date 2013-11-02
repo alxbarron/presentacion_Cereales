@@ -5,8 +5,7 @@ $(document).ready(function(){
 	}
 	//impress.js funciones dentro del index.hmtl
 	impress().init();
-	
-	$('.hide').hide();
+
 	$('div.bote').click(function(){
 		$(this).parent().find('img').hide('fade',1000);
 		$(this).find('img').show('fade',1000);
@@ -32,6 +31,27 @@ $(document).ready(function(){
 		cambio(this,$('div.slide5-chavo'),$('div.slide5-texto'));
 	});
 });
+
+function mostrar(){
+	$('.visible').show();
+}
+
+function esconder(){
+	$('.hide').hide();
+}
+
+function sawIt(selector){
+	if($(selector).hasClass('visitada')){
+		return true
+	}else{
+		$(selector).addClass('visitada');
+		return false
+	}
+}
+
+function mostrarById(id){
+	$(id).find('.hide').show();
+}
 
 function cambio(evento, mono, texto){
 	var backGrd = $(evento).attr('name');

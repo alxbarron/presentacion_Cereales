@@ -587,7 +587,12 @@
                 event.target.classList.remove("past");
                 event.target.classList.remove("future");
                 event.target.classList.add("present");
-                if(activeStep.id == 's2'){
+                mediaPlayer.pause();
+                esconder();
+                
+                if(activeStep.id == 'overview'){
+                    mostrar();
+                }else if(activeStep.id == 's2'){
                     slide2();
                 }
                 else if(activeStep.id == 's3'){
