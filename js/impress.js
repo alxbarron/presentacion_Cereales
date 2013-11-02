@@ -589,59 +589,127 @@
                 event.target.classList.add("present");
                 mediaPlayer.pause();
                 esconder();
-                
+                var selector = '#'+activeStep.id;
                 if(activeStep.id == 'overview'){
                     mostrar();
                 }else if(activeStep.id == 's2'){
-                    slide2();
+                   if(!sawIt(selector)){
+                        slide2();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's3'){
-                    slide3();
+                    if(!sawIt(selector)){
+                        slide3();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's4'){
-                    slide4();
+                    if(!sawIt(selector)){
+                        slide4();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's5'){
-                    slide5();
+                    if(!sawIt(selector)){
+                        slide5();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's6'){
-                    slide6();
+                    if(!sawIt(selector)){
+                        slide6();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's7'){
-                    slide7();
+                    if(!sawIt(selector)){
+                        slide7();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's8'){
-                    slide8();
+                    if(!sawIt(selector)){
+                        slide8();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's9'){
-                    slide9();
+                    if(!sawIt(selector)){
+                        slide9();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's10'){
-                    slide10();
+                    if(!sawIt(selector)){
+                        slide10();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's11'){
-                    slide11();
+                    if(!sawIt(selector)){
+                        slide11();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's12'){
-                    slide12();
+                    if(!sawIt(selector)){
+                        slide12();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's13'){
-                    slide13();
+                    if(!sawIt(selector)){
+                        slide13();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's14'){
-                    slide14();
+                    if(!sawIt(selector)){
+                        slide14();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's15'){
-                    slide15();
+                    if(!sawIt(selector)){
+                        slide15();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's16'){
-                    slide16();
+                    if(!sawIt(selector)){
+                        slide16();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's17'){
-                    slide17();
+                    if(!sawIt(selector)){
+                        slide17();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
                 else if(activeStep.id == 's18'){
-                    slide18();
+                    if(!sawIt(selector)){
+                        slide18();
+                   }else{
+                    mostrarById(selector);
+                   }
                 }
             }, false);
             
