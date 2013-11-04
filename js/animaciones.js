@@ -191,7 +191,7 @@ function slide6(){
 		$('.slide6-titulo').show('drop',{direction: 'up'},1500) //La cantidad
 	},2000);
 	setTimeout(function(){
-		$('.slide6-texto').show('puff',1000) //Piramide verduras
+		$('.slide6-texto').show('drop',{direction: 'down'},1000) //Piramide verduras
 	},4000);
 	setTimeout(function(){
 		$('.slide6-mantel-pleca-babero').addClass('animated pulse') //Piramide verduras
@@ -355,11 +355,11 @@ function slide10(){
 
 function slide11(){
 	setTimeout(function(){
-		$('.slide11-ventanas').show('drop',{direction: 'up'},1000) //La energia
+		$('.slide11-ventanas').show('drop',{direction: 'down'},1000) //La energia
 	},500);
 	setTimeout(function(){
 		$('.slide11-ventanas-pleca').show('drop',{ direction: 'up' },1500)
-	},2000);
+	},1000);
 	setTimeout(function(){
 		$('.slide11-titulo').show('fade',1500) //La energia
 	},3000);

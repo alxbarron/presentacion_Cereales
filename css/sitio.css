@@ -85,7 +85,7 @@
 }
 .slide1-energia{
 	height: 260px;
-	width: 520px;
+	width: 522px;
 	position: absolute;
 }
 div.slide1-energia p.nestleBld {
@@ -355,7 +355,7 @@ div.slide5-chavo{
 	background: url(images/normal.png) no-repeat;
 	width: 280px;
 	height: 450px;
-	margin-left: 130px;
+	margin: 22px 0 0 61px;
 }
 div.slide5-texto{
 	background: url(../chose-slide-5/1024x768/Pleca_azul.png) no-repeat;
@@ -774,7 +774,6 @@ div.slide10-titulo p.nestleBld{
 	line-height: 65px;
 	font-size: 50px;
 	color: #FFC211;
-	letter-spacing: 2px;
 	text-shadow: 1px 2px #999999;
 }
 div.slide10-titulo p.nestleBld span{ font-size: 72px; }
@@ -811,7 +810,6 @@ div.slide10-content-derecha-fondo{
 	width: 599px;
 	height: 434px;
 	margin-left: -133px;
-    margin-top: 28px;
 }
 div.slide10-content-derecha-fondo-bullets{
 	width: 441px;
@@ -847,14 +845,13 @@ div.slide11-ventanas{
 div.slide11-ventanas-pleca{
 	background: url(../chose-slide-12/1024x768/Pleca_transparente.png) no-repeat;
 	width: 1024px;
-	height: 361px;
+	height: 257px;
 }
 div.slide11-titulo{
 	width: 920px;
 	height: 157px;
 	float: left;
-	margin-left: 75px;
-	margin-top: 120px;
+	margin: 57px 0 0 75px;
 	line-height: 40px;
 }
 div.slide11-titulo p.nestleBld{ color: #B6D751; font-size: 58px; line-height: 75px;}
@@ -864,6 +861,7 @@ div.slide11-titulo p.nestleLi span.nestleLi { color: #9351D7; font-size: 37px; }
 div.slide11-ventanas-contenedor{
 	width: 1024px;
 	height: 410px;
+	margin: 85px 0 0;
 }
 div.slide11-ventanas-contenedor-izquierda{
 	width: 512px;
@@ -883,6 +881,7 @@ div.slide11-ventanas-contenedor-derecha{
 	width: 512px;
 	height: 410px;
 	float: right;
+	margin: 11px 0 0;
 }
 div.slide11-ventanas-contenedor-derecha-cucharas{
 	margin-left: 130px;
@@ -1021,7 +1020,7 @@ div.slide13-ventanas-pleca{
 	height: 318px;
 }
 div.slide13-ventanas-pleca-titulo{
-	width: 619px;
+	width: 634px;
 	height: 161px;
 	float: left;
 	margin-top: 115px;
@@ -1095,7 +1094,7 @@ div.slide14-ventanas-pleca{
 	height: 318px;
 }
 div.slide14-ventanas-pleca-titulo{
-	width: 625px;
+	width: 634px;
 	height: 158px;
 	float: left;
 	margin-left: 80px;
@@ -1181,8 +1180,7 @@ div.slide15-titulo{
 	width: 921px;
 	height: 170px;
 	float: left;
-	margin-top: 65px;
-	margin-left: 50px;
+	margin: 53px 0 0 50px;
 	letter-spacing: 1.1px;
     line-height: 50px;
     color:	#ffffff;
@@ -1219,7 +1217,7 @@ div.slide16-pleca-logo{
 	margin-left: 80px;
 }
 div.slide16-pleca-titulo{
-    width: 675px;
+    width: 689px;
     height: 87px;
     float: left;
     margin-top: 100px;
@@ -1272,7 +1270,7 @@ div.slide16-contenedor-bote3-texto3{
 	width: 142px;
 	height: 182px;
 	float: left;
-	margin-top: -460px;
+	margin-top: -260px;
 }
 div.slide16-contenedor-bote4{
 	background: url(../chose-slide-16/1024x768/Gerber_arroz_17.png) no-repeat;
@@ -1334,7 +1332,7 @@ div.slide17-pleca-logo{
 	margin-left: 50px;
 }
 div.slide17-pleca-titulo{
-	width: 681px;
+	width: 689px;
 	height: 95px;
 	float: left;
 	margin-top: 95px;
@@ -1453,7 +1451,7 @@ div.slide18-ventanas-pleca-titulo{
 	height: 130px;
 	float: left;
 	margin-top: 185px;
-	margin-left: 170px;
+	margin-left: 45px;
 	font-size: 89px;line-height: 111px;
 	color: #FD8504;
 }
